@@ -1,0 +1,13 @@
+/* Write your CSS here */
+.button {
+  background-color: white;
+  color: #ff0b37;
+  border-radius: 8px;
+  border-color: #ff0b37;
+  margin: 10px;
+}
+
+.lists {
+  display: flex;
+  justify-content: space-between;
+}

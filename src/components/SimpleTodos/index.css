@@ -1,0 +1,36 @@
+/* Write your CSS here */
+/* Main container */
+.bg {
+  background-color: #ffc2a0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Card styling */
+.card {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+}
+
+/* Title */
+.heading {
+  font-size: 28px;
+  color: #0f172a;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* UL styles */
+.list-container {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+}
