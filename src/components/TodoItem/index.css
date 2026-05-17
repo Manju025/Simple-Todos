@@ -1,0 +1,30 @@
+/* Write your CSS here */
+.button {
+  background-color: white;
+  color: #ff0b37;
+  border-radius: 8px;
+  border-color: #ff0b37;
+  margin: 10px;
+  border: 1px solid;
+}
+
+.button-save {
+  border-color: green;
+  background-color: white;
+  color: green;
+  border-radius: 8px;
+  margin: 10px;
+  border: 1px solid;
+}
+
+.lists {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(81, 81, 81);
+}
+
+.btns {
+  display: flex;
+  align-items: center;
+}
