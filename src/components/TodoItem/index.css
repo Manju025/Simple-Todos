@@ -5,6 +5,7 @@
   border-radius: 8px;
   border-color: #ff0b37;
   margin: 10px;
+<<<<<<< HEAD
   border: 1px solid;
 }
 
@@ -15,10 +16,13 @@
   border-radius: 8px;
   margin: 10px;
   border: 1px solid;
+=======
+>>>>>>> 88b130b63543a42955a2611040775211a2689940
 }
 
 .lists {
   display: flex;
+<<<<<<< HEAD
   align-items: center;
   justify-content: space-between;
   border-bottom: 1px solid rgb(81, 81, 81);
@@ -27,4 +31,7 @@
 .btns {
   display: flex;
   align-items: center;
+=======
+  justify-content: space-between;
+>>>>>>> 88b130b63543a42955a2611040775211a2689940
 }

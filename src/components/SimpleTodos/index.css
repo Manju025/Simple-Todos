@@ -1,8 +1,16 @@
+<<<<<<< HEAD
+=======
+/* Write your CSS here */
+/* Main container */
+>>>>>>> 88b130b63543a42955a2611040775211a2689940
 .bg {
   background-color: #ffc2a0;
   min-height: 100vh;
   display: flex;
+<<<<<<< HEAD
   flex-direction: column;
+=======
+>>>>>>> 88b130b63543a42955a2611040775211a2689940
   justify-content: center;
   align-items: center;
   padding: 40px;
@@ -16,7 +24,11 @@
   border-radius: 16px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   width: 100%;
+<<<<<<< HEAD
   max-width: 700px;
+=======
+  max-width: 500px;
+>>>>>>> 88b130b63543a42955a2611040775211a2689940
 }
 
 /* Title */
@@ -32,6 +44,7 @@
   list-style-type: none;
   padding-left: 0;
   margin: 0;
+<<<<<<< HEAD
   height: 55vh;
   overflow-y: auto;
 }
@@ -59,4 +72,6 @@
 
 .add-container button:hover {
   background-color: #f4a175;
+=======
+>>>>>>> 88b130b63543a42955a2611040775211a2689940
 }
