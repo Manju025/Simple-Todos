@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import {Component} from 'react'
 import './index.css'
 
@@ -53,41 +52,30 @@ class TodoItem extends Component {
 
         <div className="btns">
           {isEditing ? (
-            <button type="button" onClick={this.onClickSave}>
+            <button
+              type="button"
+              onClick={this.onClickSave}
+              className="button-save"
+            >
               Save
             </button>
           ) : (
-            <button type="button" onClick={this.onClickEdit}>
+            <button
+              type="button"
+              onClick={this.onClickEdit}
+              className="button-save"
+            >
               Edit
             </button>
           )}
 
-          <button type="button" onClick={this.onDelete}>
+          <button type="button" onClick={this.onDelete} className="button">
             Delete
           </button>
         </div>
       </li>
     )
   }
-=======
-// Write your code here
-import './index.css'
-
-const TodoItem = props => {
-  const {todoDetials, onDeleteTodo} = props
-  const {id, title} = todoDetials
-  const onDelete = () => {
-    onDeleteTodo(id)
-  }
-  return (
-    <li className="lists">
-      <p className="p">{title}</p>
-      <button className="button" type="button" onClick={onDelete}>
-        Delete
-      </button>
-    </li>
-  )
->>>>>>> 88b130b63543a42955a2611040775211a2689940
 }
 
 export default TodoItem

@@ -37,7 +37,6 @@ const initialTodosList = [
   },
 ]
 
-<<<<<<< HEAD
 class SimpleTodos extends Component {
   state = {
     todoDetailsList: initialTodosList,
@@ -90,12 +89,6 @@ class SimpleTodos extends Component {
     )
 
     this.setState({todoDetailsList: updatedList})
-=======
-// Write your code here
-class SimpleTodos extends Component {
-  state = {
-    todoDetailsList: initialTodosList,
->>>>>>> 88b130b63543a42955a2611040775211a2689940
   }
 
   deleteTitle = id => {
@@ -105,17 +98,12 @@ class SimpleTodos extends Component {
   }
 
   render() {
-<<<<<<< HEAD
     const {todoDetailsList, text} = this.state
 
-=======
-    const {todoDetailsList} = this.state
->>>>>>> 88b130b63543a42955a2611040775211a2689940
     return (
       <div className="bg">
         <div className="card">
           <h1 className="heading">Simple Todos</h1>
-<<<<<<< HEAD
 
           <div className="add-container">
             <input
@@ -129,18 +117,13 @@ class SimpleTodos extends Component {
             </button>
           </div>
 
-=======
->>>>>>> 88b130b63543a42955a2611040775211a2689940
           <ul className="list-container">
             {todoDetailsList.map(eachTodo => (
               <TodoItem
                 key={eachTodo.id}
                 todoDetials={eachTodo}
                 onDeleteTodo={this.deleteTitle}
-<<<<<<< HEAD
                 onSaveTodo={this.onClickSave}
-=======
->>>>>>> 88b130b63543a42955a2611040775211a2689940
               />
             ))}
           </ul>
